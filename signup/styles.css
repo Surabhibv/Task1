@@ -1,0 +1,201 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 736px;
+    height: auto;
+    border-radius: 8px;
+    opacity: 0px;
+    float: left;
+  }
+
+  
+
+  .text-right{
+    width: 295px;
+height: 17px;
+top: 267px;
+left: 857px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  .text1{
+    width: 173px;
+    height: 31px;
+    top: 260px;
+    left: 388px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: IBM Plex Sans;
+font-size: 24px;
+line-height: 31.2px;
+text-align: left;
+font-weight: bold;
+
+    
+  }
+  
+  .grp3{
+    width: 320px;
+height: 181px;
+top: 315px;
+left: 388px;
+gap: 0px;
+opacity: 0px;
+
+
+  }
+
+  .grp2{
+    width: 320px;
+height: 240px;
+top: 315px;
+left: 388px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  .card-header {
+    background-color: #e8f5e9;
+    border-bottom: none;
+  padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  
+  .card-header h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .form-container {
+    flex: 1 1 300px;
+    padding: 1rem;
+  }
+  form{
+    width: 320px;
+  }
+  .image-container {
+    flex: 1 1 200px;
+    width: 320px;
+height: 320px;
+top: 315px;
+left: 732px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  
+  .image-container img {
+    width: 320px;
+    height: 320px;
+    top: 315px;
+    left: 732px;
+    gap: 0px;
+    opacity: 0px;
+    
+    
+  }
+  .image-container{
+    width: 320px;
+height: 320px;
+top: 315px;
+left: 732px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  
+  .form-group {
+    margin-bottom: 0rem;
+  }
+  
+  .btn-block {
+    margin-bottom: 0rem;
+  }
+  .btn-custom{
+    width: 320px;
+height: 38px;
+top: 579px;
+left: 388px;
+gap: 0px;
+opacity: 0px;
+border: 0.6px solid #D9D9DB
+  }
+  .sign-in-link {
+   color: black;
+    font-family: IBM Plex Sans;
+    position: relative;
+font-size: 13px;
+line-height: 16.9px;
+text-align: right;
+left:-25px;
+top:-10px;
+
+
+  }
+  
+  .sign-in-link span {
+    text-decoration: none;
+    font-family: IBM Plex Sans;
+font-size: 13px;
+font-weight: 600;
+line-height: 16.9px;
+text-align: right;
+color: blue;
+
+  }
+  .btn-primary{
+    width: 320px;
+height: 40px;
+top: 515px;
+left: 388px;
+gap: 0px;
+border-radius: 20px 20px 20px 20px;
+opacity: 0px;
+
+
+  }
+.container1{
+  display: flex;
+}
+.container3{
+  display: flex;
+  flex-direction: column;
+}
+
+  @media (max-width: 768px) {
+    .card-body {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-container {
+      order: 2;
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      margin: 1rem;
+    }
+  }
+  
+  
+
